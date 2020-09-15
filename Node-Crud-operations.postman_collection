@@ -1,0 +1,148 @@
+{
+	"id": "55c9dd95-3b56-4934-67ec-dbfd8f5957e0",
+	"name": "Node-Sagar",
+	"description": "",
+	"order": [
+		"ef5a91da-c8ae-9bfc-5948-9afdb7c56f18",
+		"cb069405-bf39-75f5-316a-a0c4292f2df6",
+		"d2053ac1-5149-07c7-a6ff-585f2916781b",
+		"219343be-c293-df0b-5432-768f6e90f4d9",
+		"e65a19e0-56d0-9083-55b0-410b77cbd15a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1600151884507,
+	"owner": "452374",
+	"public": false,
+	"requests": [
+		{
+			"id": "219343be-c293-df0b-5432-768f6e90f4d9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:5000/users/5f6076d483f0560a86e38a05",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600176258111,
+			"name": "Update User",
+			"description": "",
+			"collectionId": "55c9dd95-3b56-4934-67ec-dbfd8f5957e0",
+			"responses": [],
+			"rawModeData": "{\"name\": \"Sagar Kache\", \"content\": \"RAM\"}"
+		},
+		{
+			"id": "cb069405-bf39-75f5-316a-a0c4292f2df6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:5000/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600176444925,
+			"name": "Create User",
+			"description": "",
+			"collectionId": "55c9dd95-3b56-4934-67ec-dbfd8f5957e0",
+			"responses": [],
+			"rawModeData": "{\"name\": \"Sai\", \"content\": \"Sagar\"}\n"
+		},
+		{
+			"id": "d2053ac1-5149-07c7-a6ff-585f2916781b",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:5000/users/5f6076e283f0560a86e38a07",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600157807393,
+			"name": "Display Single User",
+			"description": "",
+			"collectionId": "55c9dd95-3b56-4934-67ec-dbfd8f5957e0",
+			"responses": []
+		},
+		{
+			"id": "e65a19e0-56d0-9083-55b0-410b77cbd15a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:5000/users/5f6076e283f0560a86e38a07--",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600171732184,
+			"name": "Delete User",
+			"description": "",
+			"collectionId": "55c9dd95-3b56-4934-67ec-dbfd8f5957e0",
+			"responses": [],
+			"rawModeData": "{\"name\": \"Sagar Kache\", \"content\": \"@@111@\"}"
+		},
+		{
+			"id": "ef5a91da-c8ae-9bfc-5948-9afdb7c56f18",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:5000/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600157574730,
+			"name": "All Users",
+			"description": "",
+			"collectionId": "55c9dd95-3b56-4934-67ec-dbfd8f5957e0",
+			"responses": []
+		}
+	]
+}
